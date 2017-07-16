@@ -33,12 +33,12 @@ FORM-параметры:
 
 Установить зависимости:
 
-```(bash)
+```bash
 pip install -r requirements.txt
 ```
 
 Запустить:
 
-```(bash)
+```bash
 python main.py
 ```
