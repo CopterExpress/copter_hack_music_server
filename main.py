@@ -5,7 +5,7 @@ import time
 import random
 import pause
 import pygame
-from flask import Flask, request, abort, send_file
+from flask import Flask, request, abort, send_file, redirect
 
 
 pygame.mixer.init()
@@ -84,6 +84,11 @@ def play_endpoint():
 def stop_endpoint():
     pygame.mixer.stop()
     return 'ok'
+
+
+@app.route('/')
+def index():
+    return redirect('https://github.com/CopterExpress/copter_hack_music_server')
 
 
 app.run(debug=True)
