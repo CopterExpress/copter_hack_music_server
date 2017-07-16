@@ -19,6 +19,8 @@ files = os.listdir(dir + STORAGE)
 melodies = {}
 
 for file in files:
+    if file == '.placeholder':
+        continue
     filename = dir + STORAGE + '/' + file
     sound = pygame.mixer.Sound(file=filename)
     melodies[file] = sound
