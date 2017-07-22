@@ -3,6 +3,8 @@
 
 Сервер, раздающий и воспроизводящий музыку для "танца" коптеров.
 
+ROS-клиент: https://github.com/CopterExpress/copter_hack_music_server
+
 API
 ---
 
