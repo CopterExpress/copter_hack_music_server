@@ -5,6 +5,23 @@
 
 ROS-клиент: https://github.com/CopterExpress/copter_hack_music
 
+Запуск
+---
+
+Установка зависимостей:
+
+```bash
+pip install -r requirements.txt
+```
+
+Запуск:
+
+```bash
+python main.py
+```
+
+Музыкальные файлы должны лежать в каталоге ``music``. Формат — wav.
+
 API
 ---
 
