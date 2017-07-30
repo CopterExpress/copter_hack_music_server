@@ -91,4 +91,4 @@ def index():
     return redirect('https://github.com/CopterExpress/copter_hack_music_server')
 
 
-app.run(debug=True)
+app.run(host='0.0.0.0', debug=True)
