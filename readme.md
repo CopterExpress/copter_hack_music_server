@@ -3,6 +3,25 @@
 
 Сервер, раздающий и воспроизводящий музыку для "танца" коптеров.
 
+ROS-клиент: https://github.com/CopterExpress/copter_hack_music
+
+Запуск
+---
+
+Установка зависимостей:
+
+```bash
+pip install -r requirements.txt
+```
+
+Запуск:
+
+```bash
+python main.py
+```
+
+Музыкальные файлы должны лежать в каталоге ``music``. Формат — wav.
+
 API
 ---
 
@@ -27,18 +46,3 @@ FORM-параметры:
 **POST /stop**
 
 Прекратить вопроизведение.
-
-Установка и запуск
-------------------
-
-Установить зависимости:
-
-```(bash)
-pip install -r requirements.txt
-```
-
-Запустить:
-
-```(bash)
-python main.py
-```
